@@ -1,0 +1,128 @@
+html{
+    background: #f4f4f4;
+    color: #1e4dba;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.main{
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 15px;
+    padding-bottom: 50px;
+	margin-top: 25px;
+	width: 1400px;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 2px;
+}
+
+select {
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 2px;
+}
+
+
+.submit {
+	cursor: pointer;
+	border: 1px solid #cecece;
+	background: #f6f6f6;
+	box-shadow: inset 0px 20px 20px #ffffff;
+	border-radius: 8px;
+	padding: 8px 14px;
+	width: 120px;
+}
+.submit:hover {
+	box-shadow: inset 0px -20px 20px rgba(0, 0, 0, 0.2);
+    background: #1e4dba;
+    color: white;
+}
+.submit:active {
+	margin-top: 1px;
+	margin-bottom: -1px;
+	zoom: 1;
+}
+.submit:focus
+{
+	outline:none;
+} 
+
+.header-banner {
+    background-color: #22429a;
+    min-height: 100px;
+	display: flex;
+	color: white;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-banner__content {
+	font-family: 'Montserrat', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+	justify-content: center;
+    padding-top: 10px;
+	align-items: center;
+}
+
+.header-banner__logo{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+
+}
+.button{
+    margin-top: 25px;
+    border: 3px solid #1a347a01;
+    padding: 8px;
+    text-decoration: none;
+    color: #1a347a;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+
+}
+
+.button:hover{
+    border-bottom: 3px solid #ffdf25;
+    border-radius: 0px;
+}
+
+.colortext{
+    color: black !important;
+}
